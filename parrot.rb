@@ -1,7 +1,6 @@
-def parrot(sound="Squawk!")
-  return sound
-  puts "random stuff."
+def parrot(name="Squawk!")
+  puts  name
+  return name
 end
 
-parrot
-  
+parrot(name="Squawk!")
